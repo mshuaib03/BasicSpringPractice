@@ -56,6 +56,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml -->
+<dependency>
+<!--  dependency to get xml format data in UI  or Postman -->
+    <groupId>com.fasterxml.jackson.dataformat</groupId>
+    <artifactId>jackson-dataformat-xml</artifactId>
+   <version>2.9.7</version>
+ </dependency>
 	</dependencies>
 
 	<!-- <build>
