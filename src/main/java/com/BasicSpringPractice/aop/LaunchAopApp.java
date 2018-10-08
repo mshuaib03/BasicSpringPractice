@@ -1,14 +1,15 @@
-package com.DbPractice;
+package com.BasicSpringPractice.aop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication
-@EnableAspectJAutoProxy(proxyTargetClass=false)
-public class BasicSpringPracticeApplicationDB {
-
+@EnableAspectJAutoProxy
+public class LaunchAopApp {
+	
 	public static void main(String[] args) {
-		SpringApplication.run(BasicSpringPracticeApplicationDB.class, args);
+		SpringApplication.run(LaunchAopApp.class, args);
 	}
+
 }

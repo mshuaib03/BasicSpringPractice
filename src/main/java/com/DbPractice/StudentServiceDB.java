@@ -6,11 +6,12 @@ import java.util.Optional;
 import java.util.Iterator;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 
 
-@Service
+@Component
 public class StudentServiceDB {
 	@Autowired
 	private StudentRepoDB studentrepo;
